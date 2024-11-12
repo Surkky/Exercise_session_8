@@ -1,0 +1,11 @@
+Commands for exercise 5 and 6:
+
+New-Item -Path . -Name "filename.txt" -ItemType "File" <- this command is for creating new files inside the repo through teh git bash console. I've used powershell of windows.
+
+for example:
+
+New-Item -Path . -Name "HiChat.txt" -ItemType "File"
+
+notepad.exe HiChat.txt <- THis file opens the notepad app of Windows and lets you use it for modify files 
+
+after that, you make a commit and then you push the archives to the online repository.
